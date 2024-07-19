@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.pixabyte.helpdeskapi.authorization.domain.UserAlreadyExists;
+import com.pixabyte.helpdeskapi.authentication.domain.UserAlreadyExists;
 
 @ControllerAdvice
 public class HelpDeskExceptionHandler {
